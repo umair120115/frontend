@@ -1,0 +1,30 @@
+.profile-update-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.profile-section {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-section h5 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.password-section {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.profile-section input {
+    margin-bottom: 10px;
+}
+
+.profile-section button {
+    width: 100%;
+}
