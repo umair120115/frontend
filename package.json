@@ -14,7 +14,7 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@fontsource/roboto": "^5.0.14",
-    "@mui/icons-material": "^6.1.6",
+    "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.16.7",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "axios": "^1.7.4",
@@ -42,5 +42,3 @@
     "vite": "^5.4.1"
   }
 }
-
-
