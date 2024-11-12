@@ -39,7 +39,7 @@ function LoginForm(){
     <div className="container">
         
         <form  className="form-container" onSubmit={handleLogin} >
-        <h1>Welcome! Login ..</h1>
+        <h1>Welcome! Login</h1>
             
 
            <input type="text"
