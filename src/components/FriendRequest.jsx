@@ -9,7 +9,7 @@ function FriendRequest(){
         
         const res = await api.get('/hadith/requests/').then((res)=>res.data).then((data)=>{
             setRequests(data);
-            console.log(data);
+            // console.log(data);
         })
         };
         

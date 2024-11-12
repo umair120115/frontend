@@ -17,7 +17,7 @@ function ProfileDetails(){
     const getuser=()=>{
         api.get('/hadith/user/register/').then((res)=>res.data).then((data)=>{
             setUser(data);
-            console.log(data);
+            // console.log(data);
         })
     }
     function handleName(user_id){
