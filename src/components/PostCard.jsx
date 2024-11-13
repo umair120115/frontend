@@ -30,7 +30,7 @@ function PostCard(){
     const getposts= async ()=>{
       const res= await api.get('/hadith/posts/').then((res)=>res.data).then((data)=>{
         setPosts(data);
-        // console.log(data);
+        console.log(data);
     });
     } ;
 

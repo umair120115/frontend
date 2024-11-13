@@ -10,7 +10,7 @@ const ChatRoom = () => {
     const chatSocket = useRef(null);
 
     useEffect(() => {
-        chatSocket.current = new WebSocket(`ws://localhost:8000/ws/chat/${roomName}/`);
+        chatSocket.current = new WebSocket(`ws://deen-1.onrender.com/ws/chat/${roomName}/`);
 
         chatSocket.current.onmessage = (event) => {
             const data = JSON.parse(event.data);
